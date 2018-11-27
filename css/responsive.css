@@ -18,7 +18,7 @@
         border-bottom: 2px solid transparent;
         transition: 0.5s linear;
     }
-    
+
     .navbar-nav li:hover,
     .navbar-nav li.active {
         background: transparent;
@@ -43,20 +43,36 @@
         max-width: 140px;
     }
 
+    .hello h2 {
+        font-size: 60px;
+    }
 }
 
 
 @media(min-width:992px){
 
+    .custom-p {
+        padding: 100px 0 !important;
+    }
+    
     html{
         font-size: 16px;
     }
-    
+
     .navbar-brand {
         max-width: none;
     }
     
+    .hello {
+        padding: 300px 0;
+    }
+    
+    .hello:after {
+        height: 150px;
+    }
 
+        
+    
 }
 
 
@@ -70,7 +86,9 @@
         padding: 8px 15px;
     }
 
-
+    .hello h2 {
+        font-size: 82px;
+    }
 
 
 }
