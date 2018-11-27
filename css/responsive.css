@@ -54,7 +54,7 @@
     .custom-p {
         padding: 100px 0 !important;
     }
-    
+
     html{
         font-size: 16px;
     }
@@ -62,17 +62,20 @@
     .navbar-brand {
         max-width: none;
     }
-    
+
     .hello {
         padding: 300px 0;
     }
-    
+
     .hello:after {
         height: 150px;
     }
 
-        
-    
+
+    .about h2 {
+        font-size: 60px;
+    }
+
 }
 
 
